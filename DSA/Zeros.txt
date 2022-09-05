@@ -1,0 +1,40 @@
+part 1
+1.Create a Empty array in which you will store the indexes of the matrix
+where the value is 0.
+2. Traverse the matrix.
+2. While traversing the matrix, when you getting zero values then push that index
+values to the array named as indexes.
+let index=[]
+arr[i,j]==0;
+index.push([i,j])
+[[1,2],[2,0],[1,1]]
+r,c
+#Part 
+[1,1]
+mat[i][c]=0
+mat[r][i]=0  // [1,0],[1,1],[1,2]=0
+Traverse the indexes array and set the matrix values to 0 for each indexes in indexes 
+array. (put your logic here)
+
+#Part III
+Finally you can print the matrix values by traversing the matrix.
+array of 10 elements each contains 5 as value
+let arr= new Array(10).fill(5);
+
+let a=[1,2,3,4,5]
+
+[[],[],[]]
+let k=0;
+ let mat= new Array(n);//simple 1d array
+   
+
+   for(let i=0;i<mat.length;i++){
+3*3
+       let arr=new Array(n);
+       for(let j=0;j<arr.length;j++){
+            arr[j]=a[k];
+            k++;
+        }
+
+       mat[i]=arr;
+   }

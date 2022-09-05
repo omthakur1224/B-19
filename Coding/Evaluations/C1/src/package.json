@@ -1,0 +1,17 @@
+{
+  "name": "c1",
+  "version": "1.0.0",
+  "description": "1. Download the zip of the repository in masai-repo. 2. Unzip and rename the folder as per masai-repo standards. 3. All set to start.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
