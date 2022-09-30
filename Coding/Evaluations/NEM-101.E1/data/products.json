@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Demin T-Shirt",
+    "brand": "Demin",
+    "category": "shirt",
+    "price": 200,
+    "sizes": ["sm", "lg", "xl"],
+    "colors": ["black", "blue", "white"]
+  },
+  {
+    "id": 2,
+    "name": "Jack and jones T-Shirt",
+    "brand": "Jack and jones",
+    "category": "shirt",
+    "price": 300,
+    "sizes": ["sm", "lg"],
+    "colors": ["black", "navyblue", "coral"]
+  }
+]
