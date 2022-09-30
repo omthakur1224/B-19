@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "title": "Tomik",
+      "gender": "female",
+      "price": 2198,
+      "category": "jacket",
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 3,
+      "title": "Pauley",
+      "gender": "male",
+      "price": 933,
+      "category": "jacket",
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 6,
+      "title": "Busek",
+      "gender": "female",
+      "price": 4687,
+      "category": "shirt",
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 7,
+      "title": "Myrie",
+      "gender": "male",
+      "price": 2684,
+      "category": "shirt",
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 8,
+      "title": "Doxey",
+      "gender": "male",
+      "price": 4727,
+      "category": "salwar",
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 9,
+      "title": "Ivons",
+      "gender": "male",
+      "price": 1243,
+      "category": "trouser",
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "id": 10,
+      "title": "Markel",
+      "gender": "male",
+      "price": 1353,
+      "category": "jacket",
+      "image": "https://picsum.photos/200"
+    },
+    {
+      "title": "Twills",
+      "gender": "female",
+      "price": "900",
+      "category": "t-shirts",
+      "image": "https://picsum.photos/200",
+      "id": 11
+    },
+    {
+      "title": "mens shoe",
+      "price": "6777",
+      "category": "shoe",
+      "image": "https://images.meesho.com/images/products/44009963/kxwus_512.jpg",
+      "gender": "",
+      "id": 12
+    },
+    {
+      "id": 1,
+      "title": "shoe for gents",
+      "gender": "male",
+      "price": "222",
+      "category": "footware",
+      "image": "https://images.meesho.com/images/products/44009963/kxwus_512.jpg"
+    },
+    {
+      "Title": "shoe",
+      "gender": "male",
+      "Price": "333",
+      "Category": "shoes",
+      "Image": "https://images.meesho.com/images/products/44009963/kxwus_512.jpg",
+      "id": 13
+    },
+    {
+      "title": "white shoes",
+      "gender": "unisex",
+      "price": "999",
+      "category": "shoes",
+      "image": "https://images.meesho.com/images/products/44009963/kxwus_512.jpg",
+      "id": 15
+    }
+  ]
+}
