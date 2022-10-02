@@ -12,8 +12,8 @@ const List1 = ({ initialValues }: List1Props) => {
   console.log('list1: ', list);
   // const appendStartFun = () => {};
   return (
-    <div data-testid="list1">
-      <h3 data-testid="list1-label">{/* Label */} List 1</h3>
+    <div data-testid="list1" style={{display:"flex","flexDirection":"column"}}>
+    <h3 data-testid="list1-label">{/* Label */} List 1</h3>
       {/* Iterate List and wrap the element div below inside */}
       <div data-testid="list1-element">
         {/* Each element in a list */}
@@ -27,13 +27,15 @@ const List1 = ({ initialValues }: List1Props) => {
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
+      <div>
+
       <button
         data-testid="list1-btn-append-start"
         onClick={() => {
           appendStart(Number(input));
           setInput('');
         }}
-      >
+        >
         {/* Append to start of list btn */}
         appendStart
       </button>
@@ -43,10 +45,12 @@ const List1 = ({ initialValues }: List1Props) => {
           popEnd();
           setInput('');
         }}
-      >
+        >
         {/* po last element btn */}
         popEnd
       </button>
+      <div>
+
       <button data-testid="list1-btn-clear" onClick={() => clear()}>
         {/* clear list and set empty button */}
         clear
@@ -54,10 +58,12 @@ const List1 = ({ initialValues }: List1Props) => {
       <button
         data-testid="list1-btn-reset"
         onClick={() => reset(initialValues)}
-      >
+        >
         {/* Reset list to default value btn */}
         reset
       </button>
+          </div>
+        </div>
     </div>
   );
 };

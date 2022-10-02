@@ -16,7 +16,7 @@ const taskoctRoute = require('./controller/task.controller');
 app.use('/task', taskoctRoute);
 
 //connection port
-const port = process.env.PORT || 8000;
+const port = 8000;
 
 //starting server
 app.listen(port, async () => {

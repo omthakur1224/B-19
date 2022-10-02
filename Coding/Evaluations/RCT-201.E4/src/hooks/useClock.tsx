@@ -32,3 +32,18 @@ export default useClock;
 //   minutes: /** Current time in minutes */,
 //   seconds: /** Current time in seconds */,
 //  };
+
+// another approach
+// import { useState } from "react";
+
+// const useClock = () => {
+// const [sec,setsec]=useState<number>(0)
+// let arr=new Date().toTimeString().split(" ")
+// let time=arr[0].split(':')
+
+// let [hours,minutes,seconds]=time;
+// setInterval(()=>setsec(sec+1),1000)
+// return {hours,minutes,seconds}
+// };
+
+// export default useClock;
